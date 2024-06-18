@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+header{
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; 
+}
+h{
+    color:aqua;
+    font-size: 30px;
+}
+.navbar a{
+    font-size: large;
+    margin-left: 75px;
+    text-decoration: none;
+    color: yellow;
+}
+.navbar a:hover{
+    color:aqua;
+}
+.image{
+    float:right;
+    margin-right: 100px;
+    padding: 40px;
+}
+#name{
+    font-size: 25px;
+    display: grid;
+    justify-content: center;
+    color: aqua;
+    margin-top: 120px; 
+    padding: 95px;
+}
+#about{
+    display: grid;
+    align-content: center;
+    margin-top: 100px;
+    padding: 100px;
+    text-align: center;
+    font-size: 24px;
+}
+#about h2{
+    background-color: black;
+    color: aqua;
+}
+ p1{
+    color: yellow;
+}
+
